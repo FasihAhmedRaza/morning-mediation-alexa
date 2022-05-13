@@ -1,0 +1,150 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "morning meditation",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "SimpleMeditationIntent",
+          "slots": [],
+          "samples": [
+            "I\u0027m ready to meditate",
+            "I want to wind down",
+            "help me fall asleep",
+            "start a mindful walk",
+            "start morning meditation"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "WhatCanIBuyIntent",
+          "slots": [],
+          "samples": [
+            "what can I purchase",
+            "what can I buy"
+          ]
+        },
+        {
+          "name": "PurchaseHistoryIntent",
+          "slots": [],
+          "samples": [
+            "order history",
+            "what have I purchased",
+            "what have I bought"
+          ]
+        },
+        {
+          "name": "TellMeMoreAboutPremiumSubscription",
+          "slots": [],
+          "samples": [
+            "what is meditation subscription",
+            "tell me more about premium subscription",
+            "what is premium subscription"
+          ]
+        },
+        {
+          "name": "BuyPremiumSubscriptionIntent",
+          "slots": [],
+          "samples": [
+            "Get Special Meditation",
+            "bring me Special Meditation",
+            "get premium subscription",
+            "buy premium subscription"
+          ]
+        },
+        {
+          "name": "CancelPremiumSubscriptionIntent",
+          "slots": [],
+          "samples": [
+            "refund subscription",
+            "cancel subscription",
+            "cancel premium subscription"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayAudio",
+          "slots": [],
+          "samples": [
+            " for a running meditation",
+            "for today\u0027s meditation",
+            "for today\u0027s meditation sound",
+            "for todays meditation sound",
+            "play Morning Meditation sounds",
+            "play Morning Meditation from subscription",
+            "play Morning Meditation from what i have bought",
+            "play special Morning Meditation"
+          ]
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOffIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ShuffleOnIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.LoopOnIntent",
+          "samples": []
+        },
+        {
+          "name": "SteppedMeditationIntent",
+          "slots": [],
+          "samples": [
+            "start simple one",
+            "start simple meditation",
+            "start simple morning meditation"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "33"
+}

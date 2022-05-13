@@ -1,0 +1,83 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Morning Meditation sounds that help start your day on a positive note.",
+          "examplePhrases": [
+            "Alexa open morning meditation",
+            "Alexa, tell Morning Meditation I\u0027m ready to meditate",
+            "Alexa play morning meditation"
+          ],
+          "keywords": [
+            "morning",
+            "meditation",
+            "morningmeditation",
+            "med",
+            "relax",
+            "relaxing",
+            "yoga",
+            "sounds",
+            "calm",
+            "pro"
+          ],
+          "name": "Morning Meditation Pro",
+          "description": "Morning Meditation is your guide to health and happiness. With the Morning Meditation skill for Amazon Alexa, you can build a daily meditation practice, create the conditions for a better work day and night’s sleep, or go on guided walks and runs. Enable this skill for access to a new guided meditation every day. You can even bring Morning Meditation on the go with walking and running meditations that help you move mindfully. \n\nHOW DOES IT WORK?\nJust ask your Alexa skill to talk to Morning Meditation. We\u0027ll have daily meditations, guided walks and runs when you need some fresh air, and sleep exercises for when you\u0027re ready to wind down.\n\nYou can say…\n- Alexa, open Morning Meditation\n- Alexa, tell Morning Meditation I\u0027m ready to meditate\n- Alexa, ask Morning Meditation for today\u0027s meditation\n- Alexa, tell Morning Meditation I want to wind down\n- Alexa, ask Morning Meditation to help me fall asleep\n- Alexa, tell Morning Meditation to start a mindful walk\n- Alexa, ask Morning Meditation for a running meditation\n\nWHY SHOULD I MEDITATE?\nMeditation can help you stress less, focus more, and be happier. The proof is in the science. These published studies show the impact Morning Meditation can have on both your health and your relationships.\n\n- 10 days of Morning Meditation resulted in a 10% decrease in stress*\n- 3 weeks of Morning Meditation resulted in 25% more compassionate behaviour*\n- 3 weeks of Morning Meditation made users 67% less aggressive and reactive towards negative feedback*\n\nPremium Morning Meditation includes 10 morning meditation sounds that help start your day on a positive note, and more are coming.\n\n* Morning Meditation is not intended to diagnose, treat, cure, or prevent any disease or medical condition. Cited studies\u0027 methods and results are consistent with accepted social science research regarding meditation.\n\nMost people find that the effects of meditation are more apparent with consistent practice. The Morning Meditation skill for Amazon Alexa makes it easier to fit meditation into your day and feel the benefits of a happier, healthier mind.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "HEALTH_AND_FITNESS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:128256221496:function:923c4fb6-97e2-4f91-9d9f-7aa9e097e884:Release_1"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:128256221496:function:923c4fb6-97e2-4f91-9d9f-7aa9e097e884:Release_1"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:128256221496:function:923c4fb6-97e2-4f91-9d9f-7aa9e097e884:Release_1"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:128256221496:function:923c4fb6-97e2-4f91-9d9f-7aa9e097e884:Release_1"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": true,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "http://www.stcreate.net/policy.html",
+          "privacyPolicyUrl": "http://www.stcreate.net/policy.html"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
